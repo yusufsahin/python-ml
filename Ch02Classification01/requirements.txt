@@ -9,3 +9,4 @@ lime
 ipython
 xgboost
 lightgbm
+catboost
