@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 from sklearn.decomposition import PCA
 
 # 1. VERİ SETİ YÜKLEME
-# 1. VERİ SETİ YÜKLEME
+#https://www.kaggle.com/datasets/mashlyn/online-retail-ii-uci
 df = pd.read_csv("data/online_retail_II.csv", encoding='ISO-8859-1')
 df.columns = df.columns.str.strip()  # kolon isimlerindeki boşlukları temizle
 

@@ -8,6 +8,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # 1. VERİ YÜKLEME
+#https://www.kaggle.com/datasets/mashlyn/online-retail-ii-uci
 df = pd.read_csv("data/online_retail_II.csv", encoding='ISO-8859-1')
 df.columns = df.columns.str.strip()  # Boşlukları temizle
 
